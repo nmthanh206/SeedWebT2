@@ -1,0 +1,123 @@
+const laptops = [
+   {
+      name: "Laptop top Aspire 3 A315-23-R0ML",
+      image: "/images/laptops/1.jpg",
+      description:
+         "This listing contains customized products. Product seals may have been opened to install the desired customization. Defects are significantly reduced by our in depth inspection & testing. Memory:8GB RAM, Hard drive:128GB SSD. Key features and Benefits: Display:15.6 diagonal, FHD(1920 x 1080), IPS, micro- edge, anti - glare, 250 nits, 45 % NTSC, Processor:Intel Celeron N4020 (1.1 GHz base frequency, up to 2.8 GHz burst frequency, 4 MB L2 cache, 2 cores), Graphic Card:Intel UHD Graphics 600, Optical Drive: No DVD-RW, Built-in HD webcam with microphone: YES, Wireless connectivity:Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi and Bluetooth 4.2 combo, Weight3.92 lb, Battery:41Whr 3-cell lithium-ion, Dimension: 14.11 x 9.52 x 0.78 in, Color:Jet Black, Included in the package:ROKC HDMI Cable, 1-Year Office 365 Personal Subscription.",
+      brand: "HP",
+      category: "Laptops",
+      price: 428.99,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: " HP Laptop 17-by0053cl ",
+      image: "/images/laptops/2.jpg",
+      description:
+         "Acer gaming laptops deliver advanced performance for all gamers. The Nitro lineup of gaming PCs and accessories are ideal for casual gamers who are ready for something better. The Acer Nitro 5 AN515-55 is equipped with a beautiful 15.6 inch FHD display to help you visualize the win. The latest NVIDIA GeForce RTX 30 series GPU supports 2nd Gen Ray Tracing Cores, 3rd Gen Tensor Cores, DLSS, Resizable BAR, Microsoft DirectX 12 Ultimate, and so much more. With Killer Ethernet and Wi-Fi 6, get quicker matchmaking and never worry about disconnecting during a game. The Acer Nitro 5 with Intel Core i5 processing power enables impressive performance whether you're challenging your buddies to battle or focusing on a new hobby. This Acer Nitro laptop is configured with 8GB RAM memory and 256GB solid-state drive storage space, and the ability to upgrade as needed. Use the HDMI 2.0 port for a monitor, use power-off USB charging, and plug in your favorite accessories with the array of USB Type-A and USB Type-C ports. (NH.QB0AA.001).",
+      brand: "‎Acer",
+      category: "Laptops",
+      price: 812.8,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Laptop Asus D409DA-EK095T",
+      image: "/images/laptops/3.jpg",
+      description:
+         "It's all about the innovation. Acer products are designed for your needs and accessibility with powerful features fit for your lifestyle. The Aspire 5 packs a lot of power into the portable design to suit the multi-tasking needs of you and your family. The desktop-class performance of this Acer Aspire 5 laptop with an AMD Ryzen 3 processor boosting performance while giving you amazing battery life. Enjoy photo and video editing on the color-rich 15.6-inch Full HD IPS display with AMD Radeon Vega 6 Graphics. All your creations and files stay secure with the bio-protected fingerprint reader and Windows Hello Certification ensuring protected access to your Acer Aspire 5. You can turn this Acer Aspire 5 into a virtual meeting room with an HD webcam and dual built-in microphones using Acer Purified.Voice Technology to carry your conversation clearly. Whether video chatting, streaming entertainment, or working in the home office, you'll stay connected to your network with dual-band Wi-Fi 6 working intelligently with your router to increase network efficiency. (NX.ABRAA.001).",
+      brand: "Acer",
+      category: "Laptops",
+      price: 399.0,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Acer Aspire 3 A315-34-C38Y (NX.HE3SV.00G)",
+      image: "/images/laptops/4.jpg",
+      description:
+         "Seal is opened for upgrade ONLY, from Base Model with Spec is 12GB DDR4 RAM + 512GB PCIe SSD. Hassle Free One Year Warranty from Brown Box. Powerful AMD Quad-Core Ryzen 5-3500U Processor (2.10GHz Base, up to 3.70GHz with Max Boost, 4MB Cache), delivers striking visuals, extended battery life, and higher data transfer rates. 15.6 LED- backlit FHD(1920x1080) 60Hz Anti - Glare Panel with 45 % NTSC with wide 178° viewing angles display.AMD Radeon RX Vega 10 Graphics. 20GB DDR4-2400MHz SDRAM Memory for full-power multitasking; 512GB PCIe SSD save files fast and store more data. With massive amounts of storage and advanced communication power, PCI-e SSDs are great for major gaming applications, multiple servers, daily backups, and more. Wi-Fi 5 (802.11 ac) and Bluetooth 4.1; 1 x Type-A USB 3.0 (USB 3.1 Gen 1), 1 x Type-C USB 3.0 (USB 3.1 Gen 1), 2 x USB 2.0 port(s), 1 x HDMI, 1 x COMBO audio jack",
+      brand: "ASUS",
+      category: "Laptops",
+      price: 769.0,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Lenovo V130-14IKB (81HQ00EQVN)",
+      image: "/images/laptops/5.jpg",
+      description:
+         "Between home, school, and work—your mobile life demands a PC that just doesn’t quit. With long-lasting battery life, the HP Stream does everything your smartphone can’t. Post, play, and stay productive all day with the familiarity of a Windows PC that’s affordable, portable, and incredibly stylish. Live your best life on- the - go and in style with a slim, expressive design.With its smooth finish, vertical brushed pattern, and multiple color options, find the HP Stream that perfectly fits your personality. With an Intel® processor and long - lasting battery life, work all day or binge - watch your favorite shows—all while staying under budget.Plus, stay connected with fast Wi - Fi, plenty of storage options, and all the ports you need. Everything you love about Windows and more.Now, you’re ready to do what you love confidently with improved performance and a user - friendly interface. Simply insert an SD or Micro SD card and increase your device’s storage for more movies, photos, and music, or easily access any content you have stored on an existing card. It’s never been easier to give your device a bigger or second display.With HDMI output you can transmit HD video and sound with just one standard cable. Easily take this thin and light PC from room to room or on the road.When your PC goes wherever you go, staying productive and entertained has never been easier.",
+      brand: "‎HP",
+      category: "Laptops",
+      price: 229.0,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Laptop Lenovo Ideapad 5 15are05 81yq00jevn",
+      image: "/images/laptops/6.jpg",
+      description:
+         "Processor: AMD Ryzen 5 5500U 2.10GHz 6-Core Processor (11MB Cache, up to 4.00GHz). Graphics: AMD Radeon Graphics. Operating system: Windows 10 Home 64-bit. Memory: 20GB DDR4 SDRAM . Hard Drive: 512GB PCIe NVMe M.2 Solid State Drive. Optical Drive: No. Display: 15.6 FHD(1920x1080) TN 220nits Anti - glare. Touchscreen: No. Connectivity: 2 x 2 802.11AC Wi-Fi and Bluetooth 5.0 Combo. Audio: 2 x 1.5W Speakers with Dolby Audio. Keyboard: US English, Backlit Full Size Keyboard. Built-in HD Webcam: 720P Camera with Privacy Shutter and Dual Array Microphones Media Drive: Multi - format SD media card reader",
+      brand: "Lenovo",
+      category: "Laptops",
+      price: 699.0,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Dell Inspiron 15 3000 (3593) Laptop Computer - 15.6 inch HD Anti-Glare Display (Intel Core 11th Gen i5-1035G1, 8GB, 256GB PCIe M.2 NVMe SSD, Camera) Windows 10 Home",
+      image: "/images/laptops/7.jpg",
+      description:
+         "Processor 10th Generation Intel Core i5- 1035G1 Processor(6MB Cache, up to 3.6 GHz). Display 15.6-inch HD(1366 x 768) Anti- Glare LED - Backlit Non - touch Display. Operating System Windows 10 Home 64 - bit English.Memory 8 GB, 1 x 8 GB, DDR4, 2666 MHz. Hard Drive: 256GB M.2 PCIe NVMe Solid State Drive. Video Card: Intel UHD Graphics with shared graphics memory. Battery: 3 - Cell, 42 WHr, Integrated battery. Wireless Qualcomm DW1810, 1 x 1, 802.11ac with Wi - Fi, Wireless LAN, Bluetooth 4.1. Camera: Integrated widescreen HD(720p) Webcam with Single Digital Microphone",
+      brand: "Dell",
+      category: "Laptops",
+      price: 569.99,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Laptop Apple Macbook Air Retina MREE2LL/A VN/A",
+      image: "/images/laptops/8.jpg",
+      description:
+         "Memory: 16GB DDR4 MemoryStorage: 512GB Solid State Drive (SSD) Design: 2021 Newest AMD Ryzen 5000 series processor powers your HP notebook computer so you have supreme performance, astonishing battery life and modern features you need on-the-go. Processor: AMD Ryzen 5 6-core Processor AMD Ryzen 5-5500 8 MB Cache, Base Clock 2.1Ghz, Max Boost Clock 4Ghz, Display: 15.6 diagonal, FHD(1920 x 1080), micro- edge, anti - glare, 250 nits, 45 % NTSC. Screen Resolution: Full HD 1920x1080. Accessories: Woov HDMI cable. Graphics: AMD Radeon R5 Graphics Integrated Graphics Card. Operating system: Windows 10 Home. Ethernet: 10/100/1000Mbps Ethernet. WLAN Connectivity: 802_11_AC. MCR (Card Reader): Card Reader. Built-in HD Webcam: yes. Optical Drive: No. Ports: 2 X USB 3.2 Type A | 1 X Headphone/Speaker/Line-Out Jack | 1 X USB 3.1 TYPE-C | 1 X HDMI |. Battery: 45WHr 1-Cell lithium_ion Upto 7 Hours Battery Life",
+      brand: "HP",
+      category: "Laptops",
+      price: 648.99,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Dell Vostro V5490C",
+      image: "/images/laptops/9.jpg",
+      description:
+         "CPU: AMD Ryzen 3-3250U 2-Core 2.6GHz Processor (5MB Cache, 4 Threads, up to 3.5GHz). Memory: Up to 32GB DDR4 RAM. Hard Drive: Up to 1TB PCIe NVMe M.2 Solid State Drive. Operating System: Windows 10 Home. Display: 15.6 FHD(1920 x 1080), diagonal HD, BrightView, micro- edge, WLED - backlit. Touchscreen: None. Screen Resolution: 1920 x 1080. Backlit Keyboard: None. Ports: 1 x SuperSpeed USB Type-C; 2 x SuperSpeed USB Type-A; 1 x HDMI; 1 x headphone/microphone combo jack. Video: AMD Radeon Graphics. Audio: stereo speakers. Media Drive: SD Media Card Reader. Optical Drive: None. Wireless Connectivity: Wi-Fi 5 & Bluetooth 5. Built-in HD Webcam with Microphone: Yes. Battery: Lithium-ion. Weight: 3.75 Pounds",
+      brand: "HP",
+      category: "Laptops",
+      price: 649.0,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+   {
+      name: "Laptop Msi Modern 14 B10mw-427vn",
+      image: "/images/laptops/10.jpg",
+      description:
+         "The Lenovo IdeaPad™ 1 is your daily computing companion. Not only does this affordable laptop deliver amazing performance with an Intel® Celeron® processor, but it also features 164 GB M.2 PCIe SSD storage and a 14-inch HD display for great productivity. Browse the internet, stream your favorite shows, chat with family, or get work done on this reliable notebook computer. With a stylish Ice Blue case, this everyday laptop is easy to use and durable, with long battery life to let you handle daily tasks easily. Great for students, travelers, and those who like to work from home or the local coffee shop, the IdeaPad 1 is lightweight at just over 3 lbs and is less than 1 inch thick, so it's easy to slip into your Lenovo laptop backpack or carrying sleeve. Plus, with up to 8 hours of battery life, you can stay productive no matter where you are! You'll stay connected with integrated WiFi and Bluetooth® while on the go.",
+      brand: "Lenovo",
+      category: "Laptops",
+      price: 262.99,
+      countInStock: 0,
+      averageRating: 0,
+      numReviews: 0,
+   },
+];
+export default laptops;
