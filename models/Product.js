@@ -25,7 +25,6 @@ const productSchema = mongoose.Schema(
          required: true,
          ref: "User",
       },
-      // reviews: [reviewSchema],
       name: {
          type: String,
          trim: true,
@@ -39,15 +38,9 @@ const productSchema = mongoose.Schema(
          required: [true, "Please add a price"],
          min: [0, "Price cannot be lower than 0"],
       },
-      currentPrice: {
-         type: Number,
-         required: true,
-      },
+
       image: String,
-      // image: {
-      //    type: [String],
-      //    required: true,
-      // },
+
       description: {
          type: String,
          required: [true, "Please add a description"],
@@ -91,21 +84,6 @@ const productSchema = mongoose.Schema(
          type: Number,
          default: 0,
       },
-      discount: {
-         type: Number,
-         max: [100, "Discount cannot be higher than 100%"],
-         min: [0, "Discount cannot be lower than 0%"],
-      },
-      // discountDate: {
-      //    type: [Date],
-      //    default: [],
-      // },
-      // soldDiscount: {
-      //    type: Number,
-      // },
-      // quantityDiscount: {
-      //    type: Number,
-      // },
    },
    {
       timestamps: true,

@@ -34,40 +34,6 @@ const userSchema = mongoose.Schema(
          enum: ["user", "admin"],
          default: "user",
       },
-      addressList: {
-         type: [
-            {
-               name: String,
-               phone: {
-                  type: String,
-                  maxlength: [
-                     15,
-                     "Phone number cannot be longer than 15 characters",
-                  ],
-               },
-               city: String,
-               district: String,
-               ward: String,
-               address: String,
-            },
-         ],
-         default: [],
-      },
-
-      phone: {
-         type: String,
-         maxlength: [15, "Phone number cannot be longer than 15 characters"],
-         default: "",
-      },
-      gender: {
-         type: String,
-         enum: ["male", "female", "other"],
-         default: "male",
-      },
-      dob: {
-         type: Date,
-         default: "2000-01-01",
-      },
       active: {
          type: Boolean,
          default: true,

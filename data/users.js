@@ -10,24 +10,6 @@ const users = [
       password: bcrypt.hashSync("123456", 10),
       active: true,
    },
-   {
-      name: "Ngô Minh Thành",
-      email: "culi@example.com",
-      role: "user",
-      gender: "male",
-      phone: "0934563233",
-      password: bcrypt.hashSync("123456", 10),
-      active: true,
-   },
-   {
-      name: "cu tre",
-      email: "cutre@example.com",
-      role: "user",
-      gender: "male",
-      phone: "0332313233",
-      password: bcrypt.hashSync("123456", 10),
-      active: true,
-   },
 ];
 
 export default users;
